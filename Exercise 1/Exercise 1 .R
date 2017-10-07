@@ -6,4 +6,5 @@ ggplot(data=mydata [mydata$carat<2.5,],
        aes(carat, y=price, colour=clarity)) + 
   geom_point(alpha=0.1) +
   geom_smooth()
+HelloO
   
